@@ -1,0 +1,82 @@
+
+<!DOCTYPE html>
+<html lang="nl-BE">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Zakaria Aremmach</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="max-w-6xl mx-auto px-4">
+        <header class="flex flex-col gap-4 py-4 border-b sm:flex-row sm:items-center sm:justify-between">
+            <a href="index.html" class="flex items-center gap-3">
+                <img src="images/logo.png" alt="ZA logo" width="60" height="60">
+                <span class="text-2xl font-bold"></span>
+            </a>
+            <nav>
+                <ul class="flex flex-wrap gap-4 sm:gap-6">
+                    <li><a href="home.html">home</a></li>
+                    <li><a href="project.html">Projecten</a></li>
+                    <li><a href="portfolio.html">portfolio</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section class="my-4 border p-6 md:p-12">
+            <div class="max-w-xl border p-6">
+                <h1 class="text-4xl font-bold mb-4">Contacteer mij</h1>
+                <p>Heb je een vraag, een project in gedachten of wil je gewoon iets zeggen? Stuur me gerust een bericht!</p>
+            </div>
+        </section>
+
+        <div class="grid grid-cols-1 md:grid-cols-5 gap-4">
+            <main class="md:col-span-3 border p-6">
+                <h2 class="text-2xl font-bold mb-4">Stuur een bericht</h2>
+                <form>
+                    <label for="naam" class="block mb-2">Naam</label>
+                    <input id="naam" name="naam" type="text" class="w-full border p-3 mb-4" required>
+                    <label for="email" class="block mb-2">E-mail</label>
+                    <input id="email" name="email" type="email" class="w-full border p-3 mb-4" required>
+                    <label for="onderwerp" class="block mb-2">Onderwerp</label>
+                    <input id="onderwerp" name="onderwerp" type="text" class="w-full border p-3 mb-4" required>
+                    <label for="bericht" class="block mb-2">Bericht</label>
+                    <textarea id="bericht" name="bericht" rows="5" class="w-full border p-3 mb-4" required></textarea>
+                    <button type="submit" class="border px-6 py-3 font-bold">Verstuur bericht →</button>
+                </form>
+            </main>
+
+            <aside class="md:col-span-2 border p-6">
+                <h2 class="text-xl font-bold mb-4">Contactgegevens</h2>
+                <p class="mb-4">E-mail: s180350@ap.be</p>
+                <p class="mb-6">Telefoon: +32 04 67 80 11 07</p>
+                <section class="border-t pt-4 mb-6">
+                    <h3 class="font-bold mb-3">Sociale media</h3>
+                    <ul class="flex flex-wrap gap-4">
+                        <li><a href="#">LinkedIn</a></li>
+                        <li><a href="#">Instagram</a></li>
+                    </ul>
+                </section>
+                <section class="border-t pt-4">
+                    <h3 class="font-bold mb-3">Beschikbaar</h3>
+                </section>
+            </aside>
+        </div>
+
+        <footer class="border-t mt-8 py-4 flex flex-wrap justify-between gap-4">
+            <p><small>&copy; 2026 Zakaria Aremmach</small></p>
+            <nav>
+                <ul class="flex flex-wrap gap-4">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="project.html">Projecten</a></li>
+                    <li><a href="index.html#over-mij">Over mij</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </footer>
+    </div>
+</body>
+</html>
